@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+.container{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius:50% ;
+    background-color: yellow;
+    
+}
+.traingle{
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent; 
+    border-left: 100px solid #ff0000; 
+    position: absolute;
+  
+}
+.square{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    display: none;
+   
+}
+.active{
+    display: block;
+}
+
+.buttonSection{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.changeShape{
+    padding-top: 60px;
+    padding-left: 50px;
+    
+}
